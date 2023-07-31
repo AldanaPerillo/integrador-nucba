@@ -1,0 +1,198 @@
+/* Registro */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* NAVBAR */
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    box-shadow: 0 8px 24px rgba(7, 64, 248, 0.2);
+    background: rgb(103, 97, 185);
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    
+}
+
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar i {
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+@media (max-width: 832px) {
+    .navbar ul {
+        background: rgb(107, 137, 201);
+        width: 100px;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        font-size: 13px;
+    }
+
+    .navbar i {
+        display: block;
+    }
+
+    #toggle-menu:checked~.navbar-list {
+        display: flex;
+
+    }
+}
+
+/* REGISTRO */
+
+body {
+    background: #2b5876;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e4376, #2b5876);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-register {
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 40px;
+
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.button-register {
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+button {
+    border: 2px solid rgb(106, 146, 255);
+    border-radius: 5px;
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    text-decoration: none;
+    background-color: rgb(30, 33, 82);
+    color: rgb(235, 217, 217);
+    font-weight: bold;
+
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(103, 97, 185);
+    margin-top: 3%;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(103, 97, 185);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0,1%;
+    
+    
+}
+
+.footer-redes-container{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    margin-top: 1%;
+}
+
+.footer-redes {
+    height: 50px;
+    widht:50px;
+    margin: 1rem;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto integrador</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/logo-musica.png" alt="logo" width="50" height="50">
+            <nav class="navbar">
+            <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu" />
+            <ul class="navbar-list">
+                <li><a href="#cursos" class="navbar-link">Cursos</a></li>
+                <li><a href="#about-us" class="navbar-link">Sobre nosotros</a></li>
+                <li><a href="#contacto" class="navbar-link">Contacto</a></li>
+                <li><a href="register.html" class="navbar-link">Registro</a></li>
+                <li><a href="login.html" class="navbar-link">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-us">
+            <h2>Sobre Nosotros</h2>
+            <div class="hero-container">
+                <div class="img-hero">
+                    <img src="img/amplificador.jpg" alt="amplificador">
+                </div>
+                <div class="text-hero">
+                    <p>
+                        Nuestra institución está enfocada en desarrollar el concepto artístico (tocando,
+                        cantando, creando y
+                        compartiendo) tanto a nivel personal como académico.
+                        Contamos con diversos cursos, y un staff de profesores/as
+                        altamente
+                        capacitados.
+                        Nuestras clases están orientadas hacia todas las personas que tengan ganas de aprender a
+                        estudiar música a nivel
+                        académico o recreativo, comenzando desde los 3 años en adelante y sin límite de edad .
+                        Desde las clases de iniciación musical para niños, con grandes incentivos en las distintas
+                        etapas del
+                        aprendizaje, hasta los adolescentes y adultos , abordando el instrumento elegido, desde las
+                        diversas ópticas
+                        posibles.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="cursos">
+            <h2>Cursos</h2>
+            <div class="cursos-container">
+                <div class="curso">
+                    <img src="img/sing.jpg" alt="Sing">
+                </div>
+                <div class="curso">
+                    <img src="img/bass-2.jpg" alt="Bass">
+                </div>
+                <div class="curso">
+                    <img src="img/bateria.jpg" alt="Drum">
+                </div>
+                <div class="curso">
+                    <img src="img/guitar.jpg" alt="Guitar">
+                </div>
+            </div>
+            <a id="ver-mas" href="#button-cursos">Ver más</a>
+        </section>
+
+        <section id="contacto">
+            <h2>Contactanos</h2>
+            <div class="contact-container">
+                <div class="info-contact">
+                    <p> <b>Teléfono:</b> +54 1153315114</p>
+                    <p> <b>Mail:</b> musicacademy@gmail.com</p>
+                    <p> <br><b>Dirreción:</b> Calle Falsa 123</p>
+                    <p>BS.AS, Argentina</p>
+                </div>
+                <div class="form-contac">
+                    <form>
+                        <div class="info-form">
+                            <label for="nombre">
+                                <p>Nombre:</p>
+                            </label>
+                            <input type="text" id="nombre">
+                        </div>
+                        <div class="info-form">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido">
+                        </div>
+                        <div class="info-form">
+                            <label for="correo">Email:</label>
+                            <input type="email" id="correo">
+                        </div>
+                        <div class="info-form">
+                            <label for="tel">Tel:</label>
+                            <input type="tel" id="tel" placeholder="1152456566">
+                        </div>
+                        <label for="info-form">
+                            <p class="consulta">Escribe tu consulta</p>
+                        </label>
+                        <textarea id="text-area" cols="30" rows="10"></textarea>
+                        <br>
+                        <input id="submit" type="submit" value="Submit">
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <section id="button-cursos">
+            <h2>Nuestros cursos</h2>
+            <div class="info-cursos-container">
+                <div class="ver-mas-img">
+                    <img src="img/intrumento_canto.jpg" alt="">
+                </div>
+                <div class="info-instrument">
+                    <p>
+                        Al comienzo de cada clase es muy importante trabajar la respiración y relajación
+                        También es esencial trabajar la vocalización antes de cantar
+                        Y por último en las clases, se cantan diferentes estilos en el repertorio de las clases.
+                    </p>
+                </div>
+                <div class="ver-mas-img">
+                    <img src="img/intrumento_guitarra.jpg" alt="">
+                </div>
+                <div class="info-instrument">
+                    <p>
+                        En las clases se trabajan los siguientes aspectos:
+                        Parte Técnica, iprovisación sobre pistas de toda una banda sin guitarra, en donde se trabaja tanto el armado
+                        de solos como melodías. Armonía y composición donde se estudia la parte armónica para saber el porque de la composición 
+                        de algunas obras y aprender
+                        a componer nuestros propios temas sin depender de nadie, lectoescritura rítmica y melódica
+                        Estudio de las figuras rítmicas en todas sus variantes y combinaciones.
+                    </p>
+                </div>
+                <div class="ver-mas-img">
+                    <img src="img/intrumento_bajo.jpg" alt="">
+                </div>
+                <div class="info-instrument">
+                    <p> Las clases se desarrollan de manera metódica y progresiva, avanzando en conjunto con los
+                        aspectos técnicos y teóricos para un óptimo aprendizaje utilizando un programa de unidades propio diseñado para
+                        adecuarse a las necesidades particulares de cada alumno.
+                        En las clases se provee el instrumento y todo lo necesario para que el alumno no tenga que
+                        transportar nada para su mayor seguridad y comodidad.
+                    </p>
+                </div>
+                <div class="ver-mas-img">
+                    <img src="img/intrumento_bateria.jpg" alt="">
+                </div>
+                <div class="info-instrument">
+                    <p>
+                        Se hace hincapié en el entendimiento de los conceptos teóricos
+                        para poder llevar a cabo la práctica y analizar las cosas que se trabajan en clase. Se destaca
+                        mucho el vocabulario rítmico para tener herramientas a la hora de soltarse a tocar, así como también se
+                        trabaja sobre diferentes estilos, generando así al alumno situaciones reales de trabajo en las que se desarrolla un músico profesional.
+                    </p>
+                </div>
+                <button class="button-costo">Costo de clases $9.000</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="img/logo-musica.png" alt="logo" width="80" height="80">
+                <p><b>Academia de Música Aldana</b></p>
+            </div>
+            <div class="footer-redes-container">
+                <div class="footer-redes">
+                    <a href="#"> <img src="img/icons8-youtube-play-64.png" alt=""></a>
+                </div>
+                <div class="footer-redes">
+                    <a href="#"> <img src="img/icons8-whatsapp-64.png" alt=""></a>
+                </div>
+                <div class="footer-redes">
+                    <a href="#"> <img src="img/icons8-facebook-nuevo-64.png" alt=""></a>
+                </div>
+                <div class="footer-redes">
+                    <a href="#"> <img src="img/icons8-instagram-64.png" alt=""></a>
+                </div>
+            </div>
+            <p><b>©Academia de Música Aldana 2023. Todos los derechos reservados.</b></p>
+    </footer>
+</body>
+
+</html>
