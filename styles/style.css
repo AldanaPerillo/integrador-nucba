@@ -463,15 +463,15 @@ footer {
     .navbar ul {
         background: rgb(16, 31, 80);
         width: 100px;
-        height: calc(20vh - 80px);
+        height: calc(100vh - 80px);
         position: absolute;
         top: 80px;
         left: 0;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         display: none;
-        padding-right: 50% ;
-        padding-left: 50%;
+        
         
         
     }
