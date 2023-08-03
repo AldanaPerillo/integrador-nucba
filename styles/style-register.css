@@ -89,7 +89,7 @@ body {
 
 .form-register {
     width: 400px;
-    background-color: #24303c;
+    background-color: #062042;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -105,7 +105,7 @@ body {
 
 .controls {
     width: 100%;
-    background-color: #24303c;
+    background-color: #ced4da;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
@@ -189,7 +189,7 @@ footer{
 
 .footer-redes {
     height: 50px;
-    widht:50px;
+    width:50px;
     margin: 1rem;
     padding-top: 2%;
     padding-bottom: 1%;

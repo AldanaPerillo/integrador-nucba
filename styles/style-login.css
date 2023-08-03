@@ -74,11 +74,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #2b5876;
-    /* fallback for old browsers */
+    
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
-    /* Chrome 10-25, Safari 5.1-6 */
+    
     background: linear-gradient(to right, #4e4376, #2b5876);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 /* FORMULARIO LOGIN */
@@ -86,12 +86,12 @@ body {
 .form-login {
     width: 400px;
     height: 340px;
-    background-color: #4e4d4d;
+    background-color: #062042;
     margin: auto;
     margin-top: 100px;
     box-shadow: 7px 13px 37px #000;
     padding: 20px 30px;
-    border-top: 4px solid #017bab;
+    border-top: 4px solid #015c80;
     color: white;
 
 }
@@ -108,10 +108,10 @@ body {
 
 .controls {
     width: 100%;
-    border: 1px solid #017bab;
+    border: 1px solid #055879;
     margin-bottom: 15px;
     padding: 11px 10px;
-    background-color: #252323;
+    background-color: #ced4da;
     font-size: 14px;
     font-weight: bold;
 
@@ -120,7 +120,7 @@ body {
 .button {
     width: 100%;
     height: 40px;
-    background-color: #017bab;
+    background-color: #1f53c5;
     border: none;
     color: white;
     margin-botom: 16px;
