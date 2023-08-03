@@ -11,11 +11,8 @@ html {
 
 body {
     background: #2b5876;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4e4376, #2b5876);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-size: 1.6rem;
 }
 
@@ -48,7 +45,6 @@ body {
 }
 
 .navbar i {
-    /* font-size: 36px; */
     display: none;
 }
 
@@ -100,8 +96,7 @@ body {
 
 .img-hero {
 
-    /* max-width: 60%;
-    border: 2px solid rgb(109, 69, 128); */
+
     .ver-mas-img img {
         display: block;
         width: 100%;
@@ -117,18 +112,15 @@ body {
     max-width: 60%;
     border: 2px solid rgb(47, 58, 107);
     background: #0f0c29;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-    /* Chrome 10-25, Safari 5.1-6 */
+
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 5px;
 }
 
 .text-hero p {
     align-self: center;
     color: white;
-    /* font-size: 18px; */
     line-height: 160%;
 
 }
@@ -219,7 +211,6 @@ body {
 .info-contact p {
     margin-top: 15%;
     margin-bottom: 15%;
-    /* font-size: 15px; */
     color: rgb(226, 222, 236);
 
 
@@ -303,11 +294,8 @@ body {
     margin-right: 15%;
     margin-left: 15%;
     background: #2b5876;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4e4376, #2b5876);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: 1px solid black;
     border-radius: 5px;
 
@@ -329,11 +317,8 @@ body {
     margin-left: 10%;
     margin-top: 2%;
     background: #0f0c29;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 5%;
 
 }
@@ -355,15 +340,14 @@ body {
     border: 2px solid rgb(55, 40, 73);
     border-radius: 5px;
     margin-bottom: 3%;
-    /* max-width: 42%; */
+
     color: white;
     background: #42275a;
-    /* fallback for old browsers */
+
     background: -webkit-linear-gradient(to right, #734b6d, #42275a);
-    /* Chrome 10-25, Safari 5.1-6 */
+
     background: linear-gradient(to right, #734b6d, #42275a);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* font-size: 17px; */
+
 
 
 
@@ -389,7 +373,7 @@ body {
     color: rgb(65, 248, 202);
     font-weight: bold;
     margin-top: 4%;
-    
+
 }
 
 
@@ -413,7 +397,7 @@ footer {
     background-color: rgb(103, 97, 185);
     padding-top: 1%;
     padding-bottom: 1%;
-    /* border: 2px solid red; */
+
     margin-top: 0, 1%;
 
 
@@ -421,7 +405,7 @@ footer {
 
 .footer-redes-container {
     display: flex;
-    /* border: 2px solid blue; */
+
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -430,9 +414,9 @@ footer {
 }
 
 .footer-redes {
-    /* border: 2px solid rgb(32, 219, 15); */
+
     height: 50px;
-    widht: 50px;
+    width: 50px;
     margin: 1rem;
     padding-top: 2%;
     padding-bottom: 1%;
@@ -455,11 +439,11 @@ footer {
 
 @media (max-width: 978px) {
 
-    #about-us h2{
+    #about-us h2 {
         padding-top: 8%;
     }
-        
-    
+
+
     .navbar ul {
         background: rgb(16, 31, 80);
         width: 100px;
@@ -471,9 +455,9 @@ footer {
         align-items: center;
         justify-content: center;
         display: none;
-        
-        
-        
+
+
+
     }
 
     .navbar i {
@@ -482,25 +466,25 @@ footer {
 
     #toggle-menu:checked~.navbar-list {
         display: flex;
-        
+
 
     }
 
-    .navbar li{
+    .navbar li {
         text-align: center;
-        
+
     }
-    
+
 }
 
 
 @media (max-width: 1200px) {
     .cursos-container {
-    flex-wrap: wrap;
-    width: 70%;
-    margin: 0 auto;
-    justify-content: center;
-    
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+        justify-content: center;
+
     }
 
     .curso {
@@ -509,10 +493,10 @@ footer {
 
     .contact-container {
         width: 70%;
-    
+
     }
-    
-    .form-contac{
+
+    .form-contac {
         width: 40%;
 
     }
@@ -523,17 +507,17 @@ footer {
 @media (max-width: 976px) {
     .img-hero img {
         display: none;
-     }
+    }
 
     .hero-container {
         width: 100%;
-        
+
     }
 
     .hero-container p {
         padding: 5%;
 
-        
+
     }
 
     .text-hero {
@@ -542,14 +526,14 @@ footer {
     }
 
     #about-us h2 {
-    padding-top: 5%;    
+        padding-top: 5%;
     }
 }
 
 @media (max-width: 780px) {
     .contact-container {
         width: 80%;
-        
+
     }
 
     .info-contact p {
@@ -561,7 +545,7 @@ footer {
 @media (max-width: 660px) {
     .contact-container {
         flex-direction: column;
-       
+
     }
 
     .form-contac {
@@ -570,8 +554,8 @@ footer {
     }
 
     .info-form {
-     margin-right: 10%;
-     margin-left: 20%;
+        margin-right: 10%;
+        margin-left: 20%;
     }
 
     .info-contact {
@@ -585,7 +569,7 @@ footer {
     #about-us h2 {
         padding-top: 10%;
     }
-    
+
     #cursos h2 {
         padding-top: 5%;
     }
@@ -596,7 +580,7 @@ footer {
 
     #button-cursos h2 {
         padding-top: 5%;
-        }
+    }
 
     .info-contact {
         width: 65%;
@@ -621,7 +605,7 @@ footer {
     }
 
 
-    #about-us h2{
-      margin-top: 15%;
+    #about-us h2 {
+        margin-top: 15%;
     }
 }
