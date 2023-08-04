@@ -12,12 +12,11 @@ html {
 body {
     background: #2b5876;
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
-    background: linear-gradient(to right, #4e4376, #2b5876);
-    font-size: 1.6rem;
+        background: linear-gradient(to right, #4e4376, #2b5876);
+        font-size: 1.6rem;
     
-     
-      }
-
+    
+    }
 /* MENU DE NAVEGADOR */
 
 .header {
@@ -645,12 +644,20 @@ footer {
     .info-contact {
         width: 65%;
     }
+
+    .info-form {
+     margin-left: 10%;
+     margin-right: 5%;
+    }
+
+      
 }
 
 
 @media (max-width: 412px) {
     .info-cursos-container {
         padding: 0;
+        
     }
 
     .ver-mas-img {
