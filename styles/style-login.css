@@ -18,6 +18,14 @@
     
 }
 
+.header img {
+    transition: transform 0.5s ease-in-out;
+}
+
+.header:hover img {
+    transform: rotate(360deg);
+}
+
 
 
 .navbar ul {

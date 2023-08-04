@@ -22,6 +22,15 @@
     
 }
 
+.header img {
+    transition: transform 0.5s ease-in-out;
+}
+
+.header:hover img {
+    transform: rotate(360deg);
+}
+
+
 
 
 .navbar ul {
@@ -79,11 +88,8 @@
 
 body {
     background: #2b5876;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4e4376, #2b5876);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -93,7 +99,7 @@ body {
     padding: 30px;
     margin: auto;
     margin-top: 100px;
-    border border-radius: 4px;
+    border-radius: 4px;
     color: white;
     box-shadow: 7px 13px 37px #000;
 }
@@ -156,7 +162,7 @@ button {
 
 /* FOOTER */
 
-footer{
+footer {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -165,6 +171,7 @@ footer{
     background-color: rgb(103, 97, 185);
     margin-top: 3%;
 }
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -173,14 +180,14 @@ footer{
     background-color: rgb(103, 97, 185);
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-top: 0,1%;
-    
-    
+    margin-top: 0, 1%;
+
+
 }
 
-.footer-redes-container{
-    display:flex;
-    justify-content: center; 
+.footer-redes-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 1rem;
@@ -189,10 +196,8 @@ footer{
 
 .footer-redes {
     height: 50px;
-    width:50px;
+    width: 50px;
     margin: 1rem;
     padding-top: 2%;
     padding-bottom: 1%;
 }
-
-
