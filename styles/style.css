@@ -35,8 +35,6 @@ body {
 }
 
 
-
-
 .header img {
     transition: transform 0.5s ease-in-out;
 }
@@ -44,9 +42,6 @@ body {
 .header:hover img {
     transform: rotate(360deg);
 }
-
-
-
 
 .navbar ul {
     list-style: none;
@@ -659,9 +654,6 @@ footer {
         padding: 0;
     }
    
-    .info-cursos-container p{
-        font-size: 0.9rem;
-    }
     .ver-mas-img {
         width: 100%;
         margin-right: 0;
@@ -677,9 +669,4 @@ footer {
     #about-us h2 {
         margin-top: 15%;
     }
-
-    #about-us p{
-        font-size: 0.9rem;
-    }
-    
 }
