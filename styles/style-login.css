@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 /* NAVBAR */
 .header {
     height: 80px;
@@ -28,6 +31,7 @@
 
 
 
+
 .navbar ul {
     list-style: none;
     display: flex;
@@ -37,12 +41,6 @@
 .navbar {
     display: flex;
 }
-
-.navbar ul :hover {
-    transform: scale(1.05);
-    box-shadow: 0px 4px 8px rgba(240, 238, 238, 0.007);
-}
-
 
 .navbar i {
     font-size: 36px;
@@ -62,7 +60,7 @@
 
 @media (max-width: 832px) {
     .navbar ul {
-        background: rgb(107, 137, 201);
+        background: rgb(16, 31, 80);
         width: 100px;
         height: calc(100vh - 80px);
         position: absolute;
@@ -73,8 +71,13 @@
         justify-content: center;
         display: none;
         font-size: 13px;
-    
     }
+
+    .navbar ul :hover {
+        transform: scale(1.05);
+        box-shadow: 0px 4px 8px rgba(240, 238, 238, 0.007);
+    }
+    
 
     .navbar i {
         display: block;
@@ -88,12 +91,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #2b5876;
-    
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
-    
     background: linear-gradient(to right, #4e4376, #2b5876);
-    
-}
+    }
 
 /* FORMULARIO LOGIN */
 
@@ -137,7 +137,7 @@ body {
     background-color: #1f53c5;
     border: none;
     color: white;
-    margin-botom: 16px;
+    margin-bottom: 16px;
 }
 
 .form-login p {
@@ -163,15 +163,16 @@ body {
 
 /* FOOTER */
 
-footer{
+footer {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgb(103, 97, 185);
-    margin-top: 3%;
+    margin-top:10%;
 }
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -180,14 +181,12 @@ footer{
     background-color: rgb(103, 97, 185);
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-top: 0,1%;
-    
-    
+    margin-top: 0, 1%;
 }
 
-.footer-redes-container{
-    display:flex;
-    justify-content: center; 
+.footer-redes-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 1rem;
@@ -196,10 +195,8 @@ footer{
 
 .footer-redes {
     height: 50px;
-    widht:50px;
+    width: 50px;
     margin: 1rem;
     padding-top: 2%;
     padding-bottom: 1%;
 }
-
-

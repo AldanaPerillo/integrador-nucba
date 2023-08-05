@@ -12,11 +12,10 @@ html {
 body {
     background: #2b5876;
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
-        background: linear-gradient(to right, #4e4376, #2b5876);
-        font-size: 1.6rem;
-    
-    
-    }
+    background: linear-gradient(to right, #4e4376, #2b5876);
+    font-size: 1.6rem;
+}
+
 /* MENU DE NAVEGADOR */
 
 .header {
@@ -31,7 +30,6 @@ body {
     width: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-
 }
 
 
@@ -51,7 +49,7 @@ body {
 
 .navbar {
     display: flex;
-    
+
 }
 
 .navbar i {
@@ -71,12 +69,7 @@ body {
 .navbar-link {
     text-decoration: none;
     color: rgb(255, 255, 255);
-
 }
-
-
-
-
 
 
 /* SOBRE NOSOTROS */
@@ -108,21 +101,14 @@ body {
     border: 4px solid rgba(0, 0, 0, 0.548);
     border-radius: 5px;
     box-shadow: 7px 13px 37px #000;
-
 }
 
 .img-hero {
-
-
     .ver-mas-img img {
         display: block;
         width: 100%;
         height: auto;
-
-
     }
-
-
 }
 
 .text-hero {
@@ -140,7 +126,6 @@ body {
     align-self: center;
     color: white;
     line-height: 160%;
-
 }
 
 
@@ -153,7 +138,6 @@ body {
     align-items: center;
     text-align: center;
     transition: transform 0.3s ease-in-out;
-
 }
 
 #cursos h2 {
@@ -170,8 +154,6 @@ body {
 .curso img {
     border: 2px solid black;
     border-radius: 8%;
-
-
 }
 
 
@@ -184,8 +166,7 @@ body {
 
 .curso:hover img {
     border-color: rgb(129, 152, 214);
-    /* Cambiar color del borde al hacer hover */
-}
+    }
 
 
 .curso:hover {
@@ -222,9 +203,6 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
-
-
 }
 
 #contacto h2 {
@@ -240,7 +218,6 @@ body {
     border: 2px solid rgb(49, 46, 97);
     border-radius: 5px;
     width: 50%;
-
 }
 
 .info-contact {
@@ -254,8 +231,6 @@ body {
     margin-top: 15%;
     margin-bottom: 15%;
     color: rgb(226, 222, 236);
-
-
 }
 
 
@@ -274,7 +249,6 @@ body {
     border: 2px solid rgb(67, 40, 88);
     background-color: #052c5e;
     border-radius: 5px;
-
 }
 
 #nombre,
@@ -284,7 +258,6 @@ body {
     width: 50%;
     border: 2px solid black;
     margin-top: 5%;
-
 }
 
 .info-form {
@@ -292,8 +265,6 @@ body {
     text-align: left;
     align-items: center;
     color: white;
-
-
 }
 
 
@@ -329,7 +300,6 @@ body {
     font-family: 'Roboto', sans-serif;
     border: 2px solid rgb(74, 80, 175);
     background-color: rgb(22, 22, 70);
-
 }
 
 #submit:hover {
@@ -345,9 +315,6 @@ body {
     background: linear-gradient(to right, #4e4376, #2b5876);
     border: 1px solid black;
     border-radius: 5px;
-
-
-
 }
 
 
@@ -367,7 +334,6 @@ body {
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
     padding: 5%;
-
 }
 
 .ver-mas-img img {
@@ -375,8 +341,6 @@ body {
     width: 100%;
     height: auto;
     margin-top: 4%;
-
-
 }
 
 .ver-mas-img {
@@ -387,17 +351,10 @@ body {
     border: 2px solid rgb(55, 40, 73);
     border-radius: 5px;
     margin-bottom: 3%;
-
     color: white;
     background: #42275a;
-
     background: -webkit-linear-gradient(to right, #734b6d, #42275a);
-
     background: linear-gradient(to right, #734b6d, #42275a);
-
-
-
-
 }
 
 #button-cursos h2 {
@@ -441,8 +398,6 @@ footer {
     margin-top: 3%;
 }
 
-
-
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -451,15 +406,11 @@ footer {
     background-color: rgb(103, 97, 185);
     padding-top: 1%;
     padding-bottom: 1%;
-
     margin-top: 0, 1%;
-
-
 }
 
 .footer-redes-container {
     display: flex;
-
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -468,7 +419,6 @@ footer {
 }
 
 .footer-redes {
-
     height: 50px;
     width: 50px;
     margin: 1rem;
@@ -484,7 +434,6 @@ footer {
     display: block;
     width: 100%;
     height: auto;
-
 }
 
 
@@ -509,9 +458,6 @@ footer {
         align-items: center;
         justify-content: center;
         display: none;
-
-
-
     }
 
     .navbar i {
@@ -520,13 +466,10 @@ footer {
 
     #toggle-menu:checked~.navbar-list {
         display: flex;
-
-
     }
 
     .navbar li {
         text-align: center;
-
     }
 
 }
@@ -538,7 +481,6 @@ footer {
         width: 70%;
         margin: 0 auto;
         justify-content: center;
-
     }
 
     .curso {
@@ -547,12 +489,10 @@ footer {
 
     .contact-container {
         width: 70%;
-
     }
 
     .form-contac {
         width: 40%;
-
     }
 
 
@@ -565,13 +505,10 @@ footer {
 
     .hero-container {
         width: 100%;
-
     }
 
     .hero-container p {
         padding: 5%;
-
-
     }
 
     .text-hero {
@@ -599,7 +536,6 @@ footer {
 @media (max-width: 660px) {
     .contact-container {
         flex-direction: column;
-
     }
 
     .form-contac {
@@ -641,19 +577,17 @@ footer {
     }
 
     .info-form {
-     margin-left: 10%;
-     margin-right: 5%;
+        margin-left: 10%;
+        margin-right: 5%;
     }
 
-      
+
 }
-
-
 @media (max-width: 412px) {
     .info-cursos-container {
         padding: 0;
     }
-   
+
     .ver-mas-img {
         width: 100%;
         margin-right: 0;

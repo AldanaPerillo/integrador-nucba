@@ -31,8 +31,6 @@
 }
 
 
-
-
 .navbar ul {
     list-style: none;
     display: flex;
@@ -61,7 +59,7 @@
 
 @media (max-width: 832px) {
     .navbar ul {
-        background: rgb(107, 137, 201);
+        background: rgb(16, 31, 80);
         width: 100px;
         height: calc(100vh - 80px);
         position: absolute;
@@ -86,7 +84,6 @@
 
     #toggle-menu:checked~.navbar-list {
         display: flex;
-
     }
 }
 
