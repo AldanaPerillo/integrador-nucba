@@ -101,7 +101,7 @@ body {
     background-color: #062042;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 5%;
     border-radius: 4px;
     color: white;
     box-shadow: 7px 13px 37px #000;
@@ -172,7 +172,7 @@ footer {
     align-items: center;
     flex-direction: column;
     background-color: rgb(103, 97, 185);
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .footer-container {
@@ -183,9 +183,7 @@ footer {
     background-color: rgb(103, 97, 185);
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-top: 0, 1%;
-
-
+    margin-top: 0,1%;
 }
 
 .footer-redes-container {
